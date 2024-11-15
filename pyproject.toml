@@ -23,7 +23,7 @@ dependencies = [
     "pywin32 == 306; platform_system == 'Windows'",
     "requests == 2.32.*",
 ]
-requires-python = ">=3.9"
+requires-python = ">=3.9, <3.13"
 description = "The AWS Deadline Cloud worker agent can be used to run a worker in an AWS Deadline Cloud fleet"
 # https://pypi.org/classifiers/
 classifiers = [
